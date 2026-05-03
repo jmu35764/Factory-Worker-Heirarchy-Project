@@ -13,7 +13,7 @@ int main()
 
 	Emp.printEmpInfo();
 
-	ProductionWorker pw(2, 23.00);
+	ProductionWorker pw("Mason", 1001, "11/11/2011", 2, 23.00);
 
-	//pw.printProdWorkInfo;
+	pw.printProdWorkInfo();
 }
