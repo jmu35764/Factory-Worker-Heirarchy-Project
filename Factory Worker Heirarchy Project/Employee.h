@@ -2,6 +2,7 @@
 #define EMPLOYEE_H
 
 #include <string>
+#include <iostream>
 using namespace std;
 
 class Employee
