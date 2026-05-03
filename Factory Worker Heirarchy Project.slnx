@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Factory Worker Heirarchy Project/Factory Worker Heirarchy Project.vcxproj" />
+  <Project Path="Factory Worker Heirarchy Project/Factory Worker Heirarchy Project.vcxproj" Id="535e59aa-d814-483e-9516-e0427e92e7fe" />
 </Solution>
