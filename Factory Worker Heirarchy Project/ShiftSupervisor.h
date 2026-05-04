@@ -5,20 +5,20 @@
 
 #include "Employee.h"
 
-class ShiftSupervisor
+class ShiftSupervisor : public Employee
 {
 private:
-	int AnnSalary;
-	int AnnBonus;
+	double AnnSalary;
+	double AnnBonus;
 
 public:
 	// Constructor
-	ShiftSupervisor(string e_name = " ", int e_num = 0, string H_date = " ", int a_sal = 0, int a_bon = 0);
+	ShiftSupervisor(string e_name = " ", int e_num = 0, string H_date = " ", double a_sal = 0, double a_bon = 0);
 
 	//Setters
-	void setAnnSalary(int a_sal);
+	void setAnnSalary(double a_sal);
 
-	void setAnnBonus(int a_bon);
+	void setAnnBonus(double a_bon);
 
 	//Getters
 	int getAnnSalary() const
