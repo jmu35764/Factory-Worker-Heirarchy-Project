@@ -7,10 +7,8 @@
 using namespace std;
 
 ShiftSupervisor::ShiftSupervisor(string e_name, int e_num, string H_date, double a_sal, double a_bon)
-	:Employee(e_name, e_num, H_date)
+	:Employee(e_name, e_num, H_date), AnnSalary(a_sal), AnnBonus(a_bon)
 {
-	AnnSalary = a_sal;
-	AnnBonus = a_bon;
 }
 
 void ShiftSupervisor::setAnnSalary(double a_sal)
