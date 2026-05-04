@@ -13,7 +13,7 @@ private:
 
 public:
 	// Constructor
-	ShiftSupervisor(string e_name = " ", int e_num = 0, string H_date = " ", double a_sal = 0, double a_bon = 0);
+	ShiftSupervisor(string e_name = " ", int e_num = 0, string H_date = " ", double a_sal = 0.0, double a_bon = 0.0);
 
 	//Setters
 	void setAnnSalary(double a_sal);
@@ -21,12 +21,12 @@ public:
 	void setAnnBonus(double a_bon);
 
 	//Getters
-	int getAnnSalary() const
+	double getAnnSalary() const
 	{
 		return AnnSalary;
 	}
 
-	int getAnnBonus() const
+	double getAnnBonus() const
 	{
 		return AnnBonus;
 	}
