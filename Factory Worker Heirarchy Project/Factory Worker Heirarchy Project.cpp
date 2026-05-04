@@ -40,7 +40,7 @@ int main()
 
 	//****** PRODUCTION WORKER CLASS TEST ******//
 
-	cout << "///// PRODUCTION WORKER CLASS TEST /////" << endl << endl;
+	cout << endl << "///// PRODUCTION WORKER CLASS TEST /////" << endl << endl;
 
 	cout << "DAY SHIFT WORKER" << endl;
 	
@@ -57,11 +57,19 @@ int main()
 	pw2.printProdWorkInfo();
 
 
+	//****** SHIFT SUPERVISOR CLASS TEST ******//
+	 
+	cout << endl << "///// SHIFT SUPERVISOR CLASS TEST /////" << endl << endl;
 
 	ShiftSupervisor ss("Andrew Myers", 2020, "04/15/2016", 4000.00, 500.00);
 
 	cout << endl;
 	ss.printShiftSupInfo();
+
+
+	//****** TEAM LEADER CLASS TEST ******//
+
+	cout << endl << "///// TEAM LEADER CLASS TEST /////" << endl << endl;
 
 	TeamLeader tl("Jason James", 1984, "02/24/2010", 1, 35.00, 0.5, 30, 25);
 	cout << endl;
