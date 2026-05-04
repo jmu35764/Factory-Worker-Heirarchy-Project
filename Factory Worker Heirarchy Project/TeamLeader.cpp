@@ -29,7 +29,7 @@ void TeamLeader::setAttendTrainHours(int ath)
 
 void TeamLeader::printTeamLeaderInfo() const
 {
-	printProdWorkInfo;
+	printProdWorkInfo();
 
 	cout << left << setw(18) << "Monthly Bonus: $" << MonthBonus << endl;
 	cout << left << setw(27) << "Regular Training Hours: " << RegTrainingHours << endl;

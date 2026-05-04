@@ -6,6 +6,7 @@
 #include "Employee.h"
 #include "ProductionWorker.h"
 #include "ShiftSupervisor.h"
+#include "TeamLeader.h"
 
 
 int main()
@@ -24,5 +25,9 @@ int main()
 
 	cout << endl;
 	ss.printShiftSupInfo();
+
+	TeamLeader tl("Jason James", 1984, "02/24/2010", 1, 35.00, 0.5, 30, 25);
+	cout << endl;
+	tl.printTeamLeaderInfo();
 
 }
