@@ -11,7 +11,23 @@
 
 int main()
 {
+	//****** EMPLOYEE CLASS TEST ******//
+
+	cout << "EMPLOYEE CLASS TEST" << endl;
+	
 	Employee Emp("John", 1234, "10 / 05 / 2001");
+
+	Emp.printEmpInfo();
+
+	Emp.setName("Miles Morales");
+	Emp.setEmpNum(5678);
+	Emp.setHireDate("06/06/2001");
+
+
+	cout << "New Employee Name: " <<Emp.getName() << endl;
+	cout << "New Employee Number: " << Emp.getEmpNum() << endl;
+	cout << "New Empoyee Hire Date: " << Emp.getHireDate() << endl;
+
 
 	cout << endl;
 	Emp.printEmpInfo();
