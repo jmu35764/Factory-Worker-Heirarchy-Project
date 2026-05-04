@@ -6,7 +6,7 @@
 
 using namespace std;
 
-ShiftSupervisor::ShiftSupervisor(string e_name = " ", int e_num = 0, string H_date = " ", double a_sal = 0.0, double a_bon = 0.0)
+ShiftSupervisor::ShiftSupervisor(string e_name, int e_num, string H_date, double a_sal, double a_bon)
 	:Employee(e_name, e_num, H_date)
 {
 	AnnSalary = a_sal;
